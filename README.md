@@ -5,10 +5,7 @@ The settings code comes from: http://bkanuka.com/posts/native-latex-plots/.
 
 ## Install
 
-To name the project, edit the `name` key in `setup.py` and the module folder accordingly.
-Or use a virtual environment for each project.
-
-This package can then be installed system-wide using `pip`:
+This package can be installed system-wide using `pip`:
 
 ```
 cd /path/to/module/folder/with/setup.py/file
@@ -19,6 +16,7 @@ pip install --user .
 
 By loading the package, the `create_latex_setup` method is exposed, which returns the LaTeX settings for the JSON config for a specific document.
 It can return the used settings and provides a method to generate document compliant figure sizes.
+This is very similar to saving a matplotlibrc file, but I just wanted to code a little bit ;)
 
 ```
 # This must be loaded before any other matplotlib related import
