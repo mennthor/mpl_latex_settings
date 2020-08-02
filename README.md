@@ -8,8 +8,8 @@ The settings code comes from: http://bkanuka.com/posts/native-latex-plots/.
 This package can be installed system-wide using `pip`:
 
 ```
-cd /path/to/module/folder/with/setup.py/file
-pip install --user .
+$ git clone https://github.com/mennthor/mpl_latex_settings.git
+$ pip install --user ./mpl_latex_settings
 ```
 
 ## Usage
